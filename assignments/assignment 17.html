@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Validation</title>
+</head>
+<body>
+<h2>Validation Form</h2>
+<form action="submit.php" method="post">
+<label>Name:</label>
+<input type="text" required><br><br>
+<label>Email:</label>
+<input type="email" required value="abhaskashyap2@gmail.com"><br><br>
+<label>Mobile:</label>
+<input type="tel" pattern="[0-9]{10}" required><br><br>
+<label>Password:</label>
+<input type="password" required><br><br>
+<label>Age:</label>
+<input type="number" min="18" max="30" required><br><br>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
